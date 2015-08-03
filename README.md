@@ -3,8 +3,10 @@ Command Line tool (Using GCC complier) to Calculate your diet break down using u
 
 ####Install
 1. Clone repository to your local machine   
- ``` Ex.  git clone --bare https://github.com/acucciniello/DietCreator.git```
-2. Compile using GCC complier  
+ ``` Ex.  git clone --bare https://github.com/acucciniello/DietCreator.git```  
+2. Go into the directory that was cloned  
+ ``` Ex. cd DietCreator ``  
+3. Compile using GCC complier  
  ``` g++ firstFileName.cpp secondFileName.cpp -o nameOfExecutable```  
  ```    Ex. g++ cuttingDiet.cpp bulkingDiet.cpp main.cpp -o diet```
 3. Run executable  
