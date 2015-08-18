@@ -7,10 +7,8 @@ Command Line tool (Using GCC complier) to Calculate your diet break down using u
 2. Go into the directory that was cloned  
  ``` Ex. cd DietCreator ```  
 3. Compile using GCC complier  
- ``` g++ firstFileName.cpp secondFileName.cpp -o nameOfExecutable```  
  ```    Ex. g++ cuttingDiet.cpp bulkingDiet.cpp main.cpp -o diet```
 3. Run executable  
-    `./nameOfExecutable`  
     ` Ex. ./diet`
 
 ####Takes User input from the command line:
