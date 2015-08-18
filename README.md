@@ -1,15 +1,13 @@
 # DietCreator
 Command Line tool (Using GCC complier) to Calculate your diet break down using user input
 
-####Install
-1. Clone repository to your local machine   
- ``` Ex.  git clone https://github.com/acucciniello/DietCreator.git```  
-2. Go into the directory that was cloned  
- ``` Ex. cd DietCreator ```  
-3. Compile using GCC complier  
- ```    Ex. g++ cuttingDiet.cpp bulkingDiet.cpp main.cpp -o diet```
-3. Run executable  
-    ` Ex. ./diet`
+####Install  
+```sh
+$ git clone https://github.com/acucciniello/DietCreator.git  
+$ cd DietCreator  
+$ g++ cuttingDiet.cpp bulkingDiet.cpp main.cpp -o diet
+$ ./diet
+```
 
 ####Takes User input from the command line:
 1. Input physique goal ('Gain' for gaining muscle or 'Loose' for loosing fat')
