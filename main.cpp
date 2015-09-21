@@ -11,10 +11,10 @@ int main ()
 {
 	double* dietPointer;
 	string goal;
-	cout << "What do you want to do to get to your goal physique? (Gain or Loose)" << endl;
+	cout << "What do you want to do to get to your goal physique? (Gain or Lose)" << endl;
 	cin >> goal;
 
-	if (goal == "Gain")
+	if (goal == "Gain" || goal == "gain")
 	{
 		dietPointer = bulkingDiet();
 		cout << "Your Total amount of Daily Calories is: " << dietPointer[0] << endl;
@@ -26,7 +26,7 @@ int main ()
 		cout << "Your Total Amount of Daily Grams of carbohydrates is: " << dietPointer[6] << endl;
 	}
 	
-	else if (goal == "Loose")
+	else if (goal == "Lose" || goal == "lose")
 	{
 		dietPointer = cuttingDiet();
 		cout << "Your Total amount of Daily Calories is: " << dietPointer[0] << endl;
@@ -40,7 +40,7 @@ int main ()
 	
 	else 
 	{
-		cout << "Please try to rerun entering 'Gain' or 'Loose' " << endl;
+		cout << "Please try to rerun entering 'Gain' or 'Lose' " << endl;
 	}
 
 return 0;
