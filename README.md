@@ -1,7 +1,8 @@
 # DietCreator
 Command Line tool (Using GCC complier) to Calculate your diet break down using user input
 ####Dependencies
-1. gcc-c++
+gcc-c++
+
 ####Install  
 ```sh
 $ git clone https://github.com/acucciniello/DietCreator.git  
