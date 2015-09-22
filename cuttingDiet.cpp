@@ -48,10 +48,10 @@ using namespace std;
 
  	if (bodyWeight <= 0 )
  	{
- 		cout << "How are you going to loose weight when you dont exist? Rerun if you mean business" << endl;
+ 		cout << "How are you going to lose weight when you dont exist? Rerun if you mean business" << endl;
  	}
 
- 	cout << "How many pounds are you trying to loose a week? (0.5, 1.0, 1.5, 2.0)?" << endl;
+ 	cout << "How many pounds are you trying to lose a week? (0.5, 1.0, 1.5, 2.0)?" << endl;
  	cin >> weeklyAmount;
  	baseAmount = baseAmount*weeklyAmount;
 
