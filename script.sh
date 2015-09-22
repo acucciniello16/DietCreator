@@ -3,10 +3,11 @@ if [ ! -f run.o ];
 		#File not found
 		echo Compiling...
 		g++ bulkingDiet.cpp cuttingDiet.cpp main.cpp -o run.o
-		echo -----------Ready-------------
-		./run.o
+		echo ---Ready---
 	else
-		#File found
-		./run.o
+		#File found	
+		echo File found...
+		echo ---Ready---
 fi
+./run.o
 
