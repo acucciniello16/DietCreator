@@ -15,22 +15,28 @@ Run the program:
 `./diet`
 
 Input Goal(Gain or Lose):
-`What do you want to do to get to your goal physique? (Gain or Lose)
-Gain`
+
+`What do you want to do to get to your goal physique? (Gain or Lose)`
+
+`Gain`
 
 Body Type:
 
-`What is your body type? Please enter the full word ( Mesomorph, Ectomorph, Endomorph )
-Mesomorph`
+`What is your body type? Please enter the full word ( Mesomorph, Ectomorph, Endomorph )`
+
+`Mesomorph`
 
 Body Weight:
-`Please enter your body weight in pounds
-170`
+
+`Please enter your body weight in pounds`
+
+`170`
 
 Weight Gain/Loss per Week:
 
-`How many pounds are you trying to gain in lean muscle a week? (0.5, 1.0, 1.5, 2.0)?
-2.0`
+`How many pounds are you trying to gain in lean muscle a week? (0.5, 1.0, 1.5, 2.0)?`
+
+`2.0`
 
 Output:
 ```sh
