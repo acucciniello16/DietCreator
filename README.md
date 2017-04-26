@@ -1,7 +1,7 @@
 # DietCreator
 Command Line tool (Using GCC complier) to Calculate your diet break down using user input
 
-##Install  
+## Install  
 ```sh
 $ git clone https://github.com/acucciniello/DietCreator.git  
 $ cd DietCreator  
@@ -9,7 +9,7 @@ $ g++ cuttingDiet.cpp bulkingDiet.cpp main.cpp -o diet
 $ ./diet
 ```
 
-##Usage:
+## Usage:
 Run the program:
 
 `./diet`
@@ -50,13 +50,13 @@ Your Total Amount of Daily Grams of carbohydrates is: 540.062
 ```
 
 
-##Background and Further Information
+## Background and Further Information
 
 All numbers are calculated using the following link's formulas:
 
 1. [Cutting Diet](http://www.simplyshredded.com/layne-norton-the-most-effective-cutting-diet.html)
 2. [Bulking Diet](http://sefnach.com/index/the_ultimate_bulking_guide_for_maximum_muscle_gains_written_by_chris_martinez/0-52)
 
-##License
+## License
 
 MIT
